@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /* add margin b/w flex items */
+    gap: 10px;
+}
+.container button:hover{
+ background-color: rgb(50, 49, 49);
+ color: white;
+}
